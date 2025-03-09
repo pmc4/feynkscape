@@ -84,7 +84,7 @@ Scalars are represented by dashed lines. To draw a scalar line use the Pen Tool 
 1. Click once on the document to start drawing the line. A red line that follows your cursor will appear now.
 ![First click on the document and then move the mouse.](/imgs/scalar_line1.png)
 
-2. Double click it again at the tail of the line to finish drawing it. Having the grid with the Snapping tool on will help.
+2. Double click it again at the tail of the line to finish drawing it. Having the grid with the Snapping tool or pressing `Ctrl` while drawing the line will help.
 ![Double click it to close the line.](/imgs/scalar_line2.png)
 
 3. The line has a different stroke width and a different style. Use the Selector Tool (press `S`) and select the dashed straight line that appears at the top of the document (highlighted with a red rectangle). Copy it with `Edit > Copy` or press `Ctrl + C`.
@@ -155,9 +155,11 @@ The right one of vector bosons is a bit sharper, whereas the left one is smoothe
 ![Click on Paste path.](/imgs/gluon_line8.png)
 
 This will paste the previously copied path and apply it to our line. For the vector boson case, it will look like this:
+
 ![Vector boson line](/imgs/gluon_line9.png)
 
 In the case of the gluon, it looks like this:
+
 ![Gluon line](/imgs/gluon_line10.png)
 
 Now you are ready to do whatever you like with your lines. You can still use the Node Tool (press `N`) to modify the length and angle of your line. Precise position adjustments should be done later with the Selector Tool (press `S`).
@@ -230,12 +232,14 @@ If we want to draw a whole ellipse, we need to break some of its nodes appart. T
 ![Start drawing the ellipse.](/imgs/ellipse9.png)
 
 3. Assuming that the vertexes of the interaction (where the other lines will join the ellipse) are the left and right ones, the arrows will be placed on the top and bottom nodes. Select the left and right nodes with the Node Tool (press `N`).
+
 ![Left and right nodes are selected.](/imgs/ellipse10.png)
 
 4. Click on the `Break path at selected nodes` button. It is located on the top bar of Inkscape (see the red rectangle in the image down below).
 ![Click on Break path at selected nodes.](/imgs/ellipse11.png)
 
 5. Now the path is broken into two disconnected segments at the selected nodes. You can see that if you move one of those with the Node Tool (press `Edit > Undo` or `Ctrl + Z` to undo this if you moved the nodes).
+
 ![Path is now disconnected.](/imgs/ellipse12.png)
 
 6. Select all the nodes with the Node Tool (press `N`) or select the whole ellipse with the Selector Tool (press `S`) and click on `Path > Break Apart` or press `Ctrl + Shift + K`. This has broken apart both segments of the same path into two separated paths. This can be seen on the Layers and Objects panel of the right.
@@ -314,6 +318,7 @@ Take for example, this simple diagram of a fermion and a photon. Once the lines 
 ![Simple diagram with only lines.](/imgs/vertexes2.png)
 
 we can position manually the vertex. Sometimes is easier to deactivate the Snapping tool (the top-right corner button with a magnet symbol) and zoom a bit the canvas for a more precise control. Note that you may want to move the lines a bit later so they are perpendicular to the edge of the vertex. The finalized diagram woud look like this:
+
 ![Finalized diagram.](/imgs/vertexes3.png)
 
 If you do not like the dots for the vertex and prefer to use only lines, you are free to do so. But **PLEASE**, do join the vertexes correctly! Avoid making these kind of things
