@@ -96,7 +96,7 @@ Scalars are represented by dashed lines. To draw a scalar line use the Pen Tool 
 5. In order to move the line around, select the Node Tool (press `N`) and select our line. Now click on one of the nodes and move it wherever you want. This way of moving things does not change the stroke width. You can also use the Selector Tool to move and rotate elements. Just be careful because you will need to change the stroke width back to 3 px after doing so.
 ![Freely move it to your wish.](/imgs/scalar_line5.png)
 
-### Fermionic lines
+#### Fermionic lines
 
 Fermions are represented by solid lines that contain an arrow in the middle. To draw a fermion line, follow the steps 1 and 2 from the [scalar line](#scalar-lines) and then:
 
