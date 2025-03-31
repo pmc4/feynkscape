@@ -359,6 +359,8 @@ If you open the Text and Font panel (click on `Text > Text and Font` or press `C
 
 I recommend using the [STIX fonts](https://www.stixfonts.org/), which can be downloaded on [https://github.com/stipub/stixfonts](https://github.com/stipub/stixfonts). They are suited for scientific needs and publication. They are based on [The Unicode Standard](https://en.wikipedia.org/wiki/Unicode) and provide a lot of glyphs. Regarding the font size and style. I have found that a font size of 20 -- 26 approximately for the regular style looks good. It depends on the size of the final image.
 
+> I have put two text elements, a `w` and a `γ`, as an example of how they would look like. They are converted to paths, it is not a text object that you can edit. Delete them if you wish.
+
 In addition to text, you can add arrows to indicate the direction of the momenta inside loops. I provide a simple arrow from which you can copy the style and paste it in your diagram. Please, feel free to modify the Stroke style to your needs.
 
 ![An arrow.](/imgs/labels1.png)
